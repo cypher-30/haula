@@ -22,9 +22,13 @@ h2{
 #hero{
     width: 100%;
     height:97vh;
-    background-image: url(./images/pexels-cottonbro-4568711.jpg);
+    background-image: url(../images/pexels-cottonbro-4568711.jpg);
     background-size: cover;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
 }
 
@@ -102,14 +106,21 @@ h2{
     background-color: rgb(4, 77, 68);
     transition: all 0.3s ease;
 }
+
+a:focus, button:focus {
+    outline: 3px solid var(--brown-light);
+    outline-offset: 2px;
+    outline-style: dashed;
+}
+
 p{
     color: white;
     font-size: 20px;
 }
 .slogan{
     text-align: center;
-    position:relative;
-    top:20rem;
+    /* position:relative; */
+    /* top:20rem; */
 }
 .linef{
     height:1px;
@@ -143,9 +154,10 @@ p{
     color: rgb(208, 111, 73);
 }
 .book{
-    position: relative;
-    top:320px;
-    right: 40rem;
+    /* position: relative; */
+    /* top:320px; */
+    /* right: 40rem; */
+    margin-top: 2rem; /* Add some margin */
     height:auto;
     width:fit-content;
     border: 3px solid #d06f49;
@@ -216,52 +228,52 @@ p{
     justify-content: center;
 }
 .card1{
-    background-image: url(./images/pexels-liza-summer-6348095.jpg);
+    background-image: url(../images/pexels-liza-summer-6348095.jpg);
     background-size: cover;
 }
 .card2{
-    background-image: url(./images/pexels-tima-miroshnichenko-6169660.jpg);
+    background-image: url(../images/pexels-tima-miroshnichenko-6169660.jpg);
     background-size: cover;
 }
 .card3{
-    background-image: url(./images/pexels-ketut-subiyanto-4246062.jpg);
+    background-image: url(../images/pexels-ketut-subiyanto-4246062.jpg);
     background-size: cover;
 }
 .card4{
-    background-image: url(./images/pexels-mibernaa-31916807.jpg);
+    background-image: url(../images/pexels-mibernaa-31916807.jpg);
     background-size: cover;
 }
 .card5{
-    background-image: url(./images/quoteimage.jpg);
+    background-image: url(../images/quoteimage.jpg);
     background-size: cover;
 }
 .card6{
-    background-image: url(./images/pexels-rdne-7362886.jpg);
+    background-image: url(../images/pexels-rdne-7362886.jpg);
     background-size: cover;
     background-position: bottom;
 }
 .card7{
-    background-image: url(./images/home-relocation.jpg);
+    background-image: url(../images/home-relocation.jpg);
     background-size: cover;
 }
 .card8{
-    background-image: url(./images/pet-relocation.jpg);
+    background-image: url(../images/pet-relocation.jpg);
     background-size: cover;
 }
 .card9{
-    background-image: url(./images/office-relocation.jpg);
+    background-image: url(../images/office-relocation.jpg);
     background-size: cover;
 }
 .card10{
-    background-image: url(./images/hazardous-relocation2.jpg);
+    background-image: url(../images/hazardous-relocation2.jpg);
     background-size: cover;
 }
 .card11{
-    background-image: url(./images/fragile-relocation.jpg);
+    background-image: url(../images/fragile-relocation.jpg);
     background-size: cover;
 }
 .card12{
-    background-image: url(./images/machinery-relocation.jpg);
+    background-image: url(../images/machinery-relocation.jpg);
     background-size: cover;
 }
 
@@ -292,7 +304,7 @@ p{
     height:700px;
     margin: auto;
     margin-top: 30rem;
-    background-image: url(./images/istockphoto-153710544-612x612.jpg);
+    background-image: url(../images/istockphoto-153710544-612x612.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -301,10 +313,10 @@ p{
 .trust-divs{
     width:40%;
     height:90%;
-    position:relative;
-    top:3rem;
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3rem;
 }
 .tag{
     width:50%;
@@ -325,22 +337,22 @@ p{
     background-size: cover;
 }
 .tag-image1{
-    background-image: url(./images/delivery-truck1.png);
+    background-image: url(../images/delivery-truck1.png);
 }
 .tag-image2{
-    background-image: url(./images/calendar.png);
+    background-image: url(../images/calendar.png);
 }
 .tag-image3{
-    background-image: url(./images/map-pin.png);
+    background-image: url(../images/map-pin.png);
 }
 .tag-image4{
-    background-image: url(./images/product.png);
+    background-image: url(../images/product.png);
 }
 .tag-image5{
-    background-image: url(./images/cooperation.png);
+    background-image: url(../images/cooperation.png);
 }
 .tag-image6{
-    background-image: url(./images/customer-support.png);
+    background-image: url(../images/customer-support.png);
 }
 .tag p{
     font-size: 1.5rem;
@@ -455,17 +467,17 @@ text-align: center;
    
 }
 .avatar1{
-    background-image: url(./images/pexels-polina-tankilevitch-4728655.jpg);
+    background-image: url(../images/pexels-polina-tankilevitch-4728655.jpg);
 }
 .avatar2{
-    background-image: url(./images/pexels-doquyen-1520760.jpg);
+    background-image: url(../images/pexels-doquyen-1520760.jpg);
 }
 .avatar3{
-    background-image: url(./images/pexels-kooldark-17311576.jpg);
+    background-image: url(../images/pexels-kooldark-17311576.jpg);
    
 }
 .avatar4{
-    background-image: url(./images/pexels-absoluteabhi-20440138.jpg);
+    background-image: url(../images/pexels-absoluteabhi-20440138.jpg);
 }
 .testimonials{
     margin-bottom: 3rem;
@@ -492,7 +504,7 @@ text-align: center;
     padding: 0;
     width: 6rem;
     height: 2rem;
-    background-image: url(./images/travel.png);
+    background-image: url(../images/travel.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 2rem;
@@ -557,15 +569,15 @@ text-align: center;
     
 }
 .step-image1{
-    background-image: url(./images/pexels-karolina-grabowska-4968390.jpg);
+    background-image: url(../images/pexels-karolina-grabowska-4968390.jpg);
     background-size: cover;
 }
 .step-image2{
-    background-image: url(./images/pexels-pavel-danilyuk-8111863.jpg);
+    background-image: url(../images/pexels-pavel-danilyuk-8111863.jpg);
     background-size: cover;
 }
 .step-image3{
-    background-image: url(./images/pexels-pavel-danilyuk-8112172.jpg);
+    background-image: url(../images/pexels-pavel-danilyuk-8112172.jpg);
     background-size: cover;
 }
 .steps{
@@ -640,24 +652,24 @@ text-align: center;
     margin-top: 1rem;
 }
 .offer-icon1{
-    background-image: url(./images/home_2413074.png);
+    background-image: url(../images/home_2413074.png);
     
 }
 .offer-icon2{
-    background-image: url(./images/pet-love_5188084.png);
+    background-image: url(../images/pet-love_5188084.png);
     height: 9.5rem !important;
 }
 .offer-icon3{
-    background-image: url(./images/traffic-sign_18966213.png);
+    background-image: url(../images/traffic-sign_18966213.png);
 }
 .offer-icon4{
-    background-image: url(./images/glass_16096854.png);
+    background-image: url(../images/glass_16096854.png);
 }
 .offer-icon5{
-    background-image: url(./images/box_3638908.png);
+    background-image: url(../images/box_3638908.png);
 }
 .offer-icon6{
-    background-image: url(./images/factory-machine_3401629.png);
+    background-image: url(../images/factory-machine_3401629.png);
 }
 .offer-icon p{
     color: rgb(95, 95, 95);
@@ -700,15 +712,15 @@ text-align: center;
     position: relative;
 }
 .mover-image{
-    position: absolute;
+    position: relative;
     width: 35%;
     height: 40rem;
-    background-image: url(./images/676c3af1ed9f5.png);
+    background-image: url(../images/676c3af1ed9f5.png);
     background-size: cover;
     background-repeat: no-repeat;
-    bottom: 4rem;
+    margin-left: auto;
+    margin-bottom: 4rem;
     scale: 1.2;
-    left: 60%;
 }
 .overlay2{
 position: absolute;

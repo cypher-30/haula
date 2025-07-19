@@ -1,3 +1,9 @@
+/**
+ * This script duplicates the children of elements with class "scroller-inner"
+ * inside elements with class "scroller" to create an infinite scrolling animation.
+ * It respects the user's "prefers-reduced-motion" setting to disable animation if needed.
+ */
+
 const scrollers = document.querySelectorAll(".scroller");
 
 if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
