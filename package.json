@@ -1,0 +1,14 @@
+{
+  "name": "haula-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && (cd server && npm install) && (cd client-react && npm install)",
+    "start": "concurrently \"npm run start-server\" \"npm run start-client\"",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client-react && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
